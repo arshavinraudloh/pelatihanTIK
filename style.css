@@ -11,14 +11,22 @@ body {
    background-color: gray;
    border-radius: 15px;
    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   text-align: center;
+   color: black;
 }
 
 .kartu-profil img {
-width: 150px;
-border-radius: 50%;
+   width: 150px;
+   border-radius: 50%;
 }
-.kartu-profil {
+
+.gambar-kedua { 
+    position: fixed; 
+    bottom: 10px; 
+    left: 10px; 
+    width: 100px; 
+    height: auto; 
+    z-index: 1000;
   
-    text-align: center;
-    color: black;
+    
 }
